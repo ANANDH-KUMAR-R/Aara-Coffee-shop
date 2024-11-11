@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    transition: ease all 0.5s;
+}
+
+
+/* HOME */
+.home {
+    background: url(./images/banner-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flexbox;
+    height: 100vh;
+}
+
+.container {
+    height: 70px;
+    background-color: #00000045;
+}
+
+.container_main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    color: red;
+}
+
+.navbar>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar>ul>li {
+    list-style: none;
+    padding: 30px;
+}
+
+.navbar>ul>li>a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+}
+
+.navbar>ul>li>a:hover {
+    border-bottom: 3px solid red;
+}
+
+.Coffee_Shop {
+    margin: 100px 0 0 200px;
+    width: 60vw;
+}
+
+.Home {
+    display: flex;
+}
+
+.div1 {
+    color: white;
+    width: 47vw;
+}
+
+.div1>h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6rem;
+    font-family: 600;
+}
+
+.div1>p {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.call {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: red;
+    border: 3px solid red;
+
+}
+
+.call>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+
+/* ABOUT */
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90vw;
+    background-color: white;
+}
+
+.about_main {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.aboutShop {
+    line-height: 50px;
+    width: 70%;
+}
+
+.aboutShop>h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aboutShop>h4 {
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aboutShop>p {
+    line-height: 20px;
+    font-family: 'Times';
+}
+
+.aboutShopimg {
+    padding-left: 100px;
+    width: 50%;
+}
+
+.aboutShopimg>img {
+    height: 50vh;
+    width: 30vw;
+}
+
+.readmore_btn {
+    font-family: 'Times';
+    font-size: 1rem;
+    width: 200px;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 10px;
+    color: red;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.readmore_btn:hover {
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 10px;
+    color: grey;
+}
+
+
+/* BLOG */
+.Blog {
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.Blog>h1 {
+    text-indent: 23px;
+}
+
+.blog_main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog1,
+.blog2 {
+    border: 2px solid gray;
+    width: 46.5vw;
+}
+
+.blog1>h1,
+.blog2>h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.blog1>p,
+.blog2>p {
+    font-family: sans-serif;
+}
+
+
+/* ORDER */
+.Order {
+    height: 100vh;
+}
+
+.Order>h1 {
+    padding: 70px 0 40px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+
+.order_main {
+    display: flex;
+    justify-content: center;
+}
+
+.Products {
+    height: 450px;
+    width: 1300px;
+    border: 1px solid gray;
+
+}
+
+.prd1 {
+    border: 1px solid gray;
+    width: 281px;
+    height: 370px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(1, 9, 26);
+    color: white;
+    padding-bottom: 10px;
+    margin: 29px 20px;
+
+}
+
+.prd1>img {
+    width: 280px;
+}
+
+.read_btn {
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(1, 9, 26);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.read_btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.prd1:hover {
+    background-color: red;
+
+}
+
+.order_main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.Products {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    box-shadow: 2px 2px 50px gray;
+}
+
+
+/* CONTACT */
+.contact_main>h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.data input,
+.data textarea {
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.data textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.send {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.send:hover {
+    background-color: coral;
+}
+
+
+/* FOOTER */
+.footer {
+    padding: 15px;
+    /* background-color: #555; */
+    background-image: url(./images/footer-bg.png);
+}
+
+.footerContact {
+    width: 90vw;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footerContact a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerContact a:hover {
+    color: #0056b3;
+}
+
+.footerContact p {
+    margin: 0;
+    color:coral;
+}
